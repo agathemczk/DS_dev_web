@@ -1,0 +1,25 @@
+header {
+    background-color: $color_2;
+    color:white;
+    
+    nav {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+}
+
+#header_list {
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    gap: 20%;
+    padding: 2%;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
