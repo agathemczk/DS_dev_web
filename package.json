@@ -6,6 +6,10 @@
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Agathe Mczk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "DS_dev_web"
+  }
 }
