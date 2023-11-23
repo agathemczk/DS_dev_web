@@ -1,1 +1,26 @@
+main {
+    display: flex;
+    justify-content: space-between;
 
+    div{
+        display:flex;
+        margin:30px;
+    }
+
+    ul{
+        list-style: none;
+        margin:20px;
+        padding: 30px;
+        background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
+
+        li {
+            padding:30px;
+            text-align: center;
+        }
+    }
+
+}
+
+#right {
+
+}
