@@ -1,17 +1,17 @@
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     div{
         display:flex;
-        margin:30px;
+        margin :30px;
     }
 
     ul{
         list-style: none;
         margin:20px;
         padding: 30px;
-        background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
+        background: linear-gradient(180deg, #433C87 0%, #433c8700 100%);
 
         li {
             padding:30px;
@@ -22,5 +22,10 @@ main {
 }
 
 #right {
+    background-image: url(./../../images/losange.webp);
+    display: flex;
+    align-items: center;
+    padding:400px;
+
 
 }
